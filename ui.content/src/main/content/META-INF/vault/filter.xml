@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/helloHacka" mode="merge"/>
+    <filter root="/content/helloHacka" mode="merge"/>
+    <filter root="/content/dam/helloHacka" mode="merge">
+        <exclude pattern="/content/dam/helloHacka(/.*)?"/>
+        <include pattern="/content/dam/helloHacka/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/helloHacka/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/helloHacka" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-themes/helloHacka" mode="merge"/>
+    <filter root="/content/dam/formsanddocuments-fdm/helloHacka" mode="merge"/>
+    <filter root="/content/dam/helloHacka/sample_logo.png" mode="merge"/>
+    <filter root="/content/dam/helloHacka/sample_terms.png" mode="merge"/>
+    <filter root="/content/dam/helloHacka/wknd_logo.png" mode="merge"/>
+</workspaceFilter>
